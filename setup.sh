@@ -21,7 +21,7 @@ sudo chmod +x $DC_BIN
 
 
 if command -v docker-compose >/dev/null 2>&1; then
-  
+    echo 'Success'
 else
  
     exit 1
