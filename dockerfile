@@ -12,8 +12,6 @@ COPY index.html /usr/share/nginx/html/index.html
 
 RUN curl -fsSL https://ollama.com/install.sh | sh
 
-RUN ollama pull deepseek-r1:1.5b
-
 EXPOSE 80
 
 COPY start.sh /start.sh
