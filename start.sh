@@ -3,9 +3,7 @@
 
 ollama serve &
 
-until ollama status >/dev/null 2>&1; do
-    sleep 2
-done
+sleep 10
 
 ollama pull deepseek-r1:1.5b
 
