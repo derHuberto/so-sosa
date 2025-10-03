@@ -22,7 +22,10 @@ sudo chmod +x $DC_BIN
 
 if command -v docker-compose >/dev/null 2>&1; then
     echo 'Success'
+
+    sudo docker compose up -d --build
+    sudo docker compose ps
 else
- 
+    echo 'Error'
     exit 1
 fi
