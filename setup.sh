@@ -10,7 +10,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 rm get-docker.sh
 
-sudo usermod -aG docker fpuna
+
 
 DOCKER_COMPOSE_VERSION="2.28.2"
 DC_BIN="/usr/local/bin/docker-compose"
